@@ -14,7 +14,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 18px 8%;
+    padding: 10px 8%;
 
 }
 nav ul {
@@ -25,4 +25,31 @@ nav ul {
 }
 nav ul li a{
     text-decoration: none;
+    color: #8b8989;
 }
+
+/* header style */
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-banner{
+    text-align: center;
+    color: white;
+}
+.hero-banner p{
+    margin-top: 20px;
+    margin-bottom: 220px;
+    color: #c1bfbf;
+}
+.hero-banner button:hover{
+    border: 2px solid blue;
+}
+
