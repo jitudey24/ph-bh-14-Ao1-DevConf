@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* common style */
+.common-btn{
+    padding: 8px 15px;
+    background-color: #1D4ED8;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+}
