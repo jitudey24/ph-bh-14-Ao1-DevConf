@@ -199,22 +199,26 @@ header{
 }
 .footer{
     background-color: #0D1B2A;
+    padding: 0 10px;
 }
 .footer-content{
     display: flex;
     justify-content: space-between;
-    padding: 18px 8%;
-    height: 80px;
+    padding: 15px 8%;
+    height: 60px;
     margin: 10px 0;
     align-items: center;
 }
 .footer-content i{
     color: white;
 }
+.divider{
+    padding: 0 30px;
+}
 .copyright{
     display: flex;
     justify-content: space-between;
-    padding: 10px 30px;
+    padding: 10px 40px;
     color: #c1bfbf;
     font-size: 0.8rem;
 
