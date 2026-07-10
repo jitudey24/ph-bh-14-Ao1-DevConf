@@ -9,12 +9,16 @@
     color: #ffffff;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
 }
 .common-clr{
     color: blue;
 }
 section{
     padding: 80px 8%;
+}
+.common-padding{
+    padding-bottom: 10px;
 }
 nav{
     display: flex;
@@ -81,7 +85,13 @@ header{
 }
 .first-child img{
     width: 100%;
+    border-radius: 10px 10px 0 0;
 }
+.speakers-per{
+    border: 1px solid #c1bfbf;
+    border-radius: 10px;
+}
+
 /* card section */
 .card-container-parent{
     padding-top: 20px;
@@ -102,14 +112,14 @@ header{
 .card-container-child{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 20px;
 }
 .card-container-child p{
     color: #8b8b8b;
 }
 .card-container-child div{
     border: 1px solid#c1bfbf;
-    width: 280px;
+    width: 320px;
     height: 350px;
     padding: 20px;
     border-radius: 10px;
@@ -132,11 +142,13 @@ header{
     margin-left: 10%;
     padding: 8px 20px;
     border-radius: 15px;
+    cursor: pointer;
 }
 .card-1 button{
     color: #1D4ED8;
     border: 1px solid blue;
     background-color: #fff;
+    cursor: pointer;
 }
 .card-2{
     color: #fff;
@@ -149,6 +161,7 @@ header{
     color:#ffffff;
     background-color: #1D4ED8;
     border: none;
+    cursor: pointer;
 }
 .card-2-p{
     color: #5d7dd6;
@@ -158,6 +171,7 @@ header{
 }
 .card-3 button{
     border: 1px solid black;
+    cursor: pointer;
 }
 .sponsores-section{
     text-align: center;
