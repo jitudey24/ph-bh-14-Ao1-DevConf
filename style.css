@@ -210,7 +210,7 @@ header{
     align-items: center;
 }
 .footer-content i{
-    color: white;
+    color: rgb(187, 187, 187);
 }
 .divider{
     padding: 0 30px;
